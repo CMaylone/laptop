@@ -137,16 +137,6 @@ install_node
 
 setup_git
 setup_ssh
-setup_terminator
-
 
 echo -e "Programs installed:"
 print_install_status
-
-# Shit to install
-# install vscode workspace settings
-# node, npm, nvm?? - update bash.rc with nvm information
-# inconsolata font
-
-
-# set-up ssh key
