@@ -15,7 +15,6 @@ wget https://raw.githubusercontent.comMaylone/laptop/master/debian.sh -O - | sud
 * chrome
 * inconsolata font
 * node
-* 
 
 ## Todo
 
