@@ -107,7 +107,7 @@ setup_ssh() {
 	read SETUP_SSH
 	case $SETUP_SSH in
     		[yY][eE][sS]|[yY]) 
-			echo -n "Enter email to use as label for new SSH key"
+			echo -n "Enter email to use as label for new SSH key: "
 			read EMAIL
 			
 			# Run ssh-keygen as current user
@@ -120,27 +120,6 @@ setup_ssh() {
 			;;
 	esac
 }
-
-setup_terminator() {	
-	echo -e "Would you like to set-up terminator? This will override your current settings! [y/n]: "
-	read SETUP_SSH
-	case $SETUP_SSH in
-    		[yY][eE][sS]|[yY]) 
-			echo -n "Enter email to use as label for new SSH key"
-			read EMAIL
-			
-			# Run ssh-keygen as current user
-			sudo -u $SUDO_USER ssh-keygen -t rsa -b 4096 -C $EMAIL
-			push_install_status "ssh configured" true
-			;;
-	    	*)
-			echo -e "Skipping SSH key setup"
-			push_install_status "ssh configured" "unknown"
-			;;
-	esac
-	sudo -u $SUDO_USER 
-}
-
 
 # Get latest packages before installing new software
 apt-get -qq update
