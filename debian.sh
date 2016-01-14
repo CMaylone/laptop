@@ -61,6 +61,8 @@ install_node() {
 	NODESOURCE_SETUP_SCRIPT="setup_4.x"
 	wget "https://deb.nodesource.com/$NODESOURCE_SETUP_SCRIPT" | sudo -E bash -
 	install nodejs
+	
+	sudo ln -s `which nodejs` /usr/bin/node
 
 	# Install nodejs build essentails
 	install build-essential
