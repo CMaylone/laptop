@@ -123,6 +123,8 @@ setup_ssh() {
 	esac
 }
 
+echo -e "Installing..."
+
 # Get latest packages before installing new software
 apt-get -qq update
 
