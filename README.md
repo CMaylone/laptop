@@ -3,6 +3,8 @@ Quick set-up scripts for new laptops
 
 ## Getting Started
 
+### Debian
+
 ```
 wget https://raw.githubusercontent.comMaylone/laptop/master/debian.sh -O - | sudo -E bash -
 ```
