@@ -18,6 +18,11 @@ wget https://raw.githubusercontent.comMaylone/laptop/master/debian.sh -O - | sud
 * inconsolata font
 * node
 
+## What can be set-up?
+
+* git global name and email
+* intial ssh keygen
+
 ## Todo
 
 * OS X Script
