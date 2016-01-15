@@ -23,8 +23,9 @@ wget https://raw.githubusercontent.comMaylone/laptop/master/debian.sh -O - | sud
 * git global name and email
 * intial ssh keygen
 
-## Todo
+## TODO
 
 * OS X Script
 * Clean up
+* Add Android Studio
 * Import workspace configurations such for vscode, terminator...
