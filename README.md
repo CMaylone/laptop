@@ -28,4 +28,6 @@ wget https://raw.githubusercontent.comMaylone/laptop/master/debian.sh -O - | sud
 * OS X Script
 * Clean up
 * Add Android Studio
+* NVM
+* Useful global NPM modules (gulp, yeoman, ...)
 * Import workspace configurations such for vscode, terminator...
