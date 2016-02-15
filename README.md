@@ -29,5 +29,6 @@ wget https://raw.githubusercontent.comMaylone/laptop/master/debian.sh -O - | sud
 * Clean up
 * Add Android Studio
 * NVM
+* Docker-engine
 * Useful global NPM modules (gulp, yeoman, ...)
 * Import workspace configurations such for vscode, terminator...
